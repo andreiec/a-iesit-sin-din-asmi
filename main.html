@@ -10,15 +10,21 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body id="grad">
-    <div id="sinImg">
+<body id="grad" class="unscrollable">
+    <div class="firstPage">
+        <div id="sinImg"></div>
+        <div class="container"> 
+            <h1 id="fontedHarder" style="font-size: 76px; color:#ffffff;">Nu încă.</h1>
+        </div>
+        <div class="footer" >
+            <a href="#secondPage">
+                <img src="arrow.png" alt="Scroll down image" style="width: 25px; height: 25px;">
+                <button id="fonted" class="textButton" style="font-size: 26px; color:#ffffff;">Dă scroll pentru statistici </button>
+            </a>
+        </div>
     </div>
-    <div class="container"> 
-        <h1 id="fontedHarder" style="font-size: 76px; color:#ffffff;">Nu încă.</h1>
-    </div>
-    <div class="footer">
-        <img src="arrow.png" alt="Scroll down image" style="width: 25px; height: 25px;">
-        <h3 id="fonted" style="font-size: 26px; color:#ffffff;">Dă scroll pentru statistici </h3>
+    <div id="secondPage" class="secondPage">
+        <h1 id="fontedHarder" style="font-size: 76px; color:#ffffff;">Statistici</h1>
     </div>
 </body>
 

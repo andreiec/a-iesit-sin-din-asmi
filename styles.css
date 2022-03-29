@@ -2,6 +2,19 @@
     background: linear-gradient(73.92deg, #0E557A 0%, #2F91BF 100%);
   }
 
+.unscrollable::-webkit-scrollbar {
+    display: none;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+.unscrollable {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
 #fonted{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -12,11 +25,14 @@
     font-weight: 600;
 }
 
-.body{
+.firstPage{
     min-height: 100vh;
     position: relative;
 }
 
+.secondPage{
+    min-height: 100vh;
+}
 
 .container{
     position:absolute;
@@ -48,4 +64,12 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+}
+
+.textButton{
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
 }
