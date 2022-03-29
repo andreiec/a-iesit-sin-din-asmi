@@ -29,19 +29,18 @@
     left: 50%;
     top: 50%;
     margin: -100px 0 0 -80px;
+    line-height: 70px;
 }
 
 .sinImage {
     position: absolute;
     width: 600px;
     height: 600px;
-    left:-180px;
-    top: -20px;
+    top: 100px;
 
-    background: url(images/sinPNG.png);
+    background: url(images/sin.png);
     background-repeat: no-repeat;
     background-size: contain;
-    transform: rotate(71.23deg);
 }
 
 .scrollText {
@@ -144,7 +143,7 @@
     margin-left: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 768px) {
     .thirdPageFlex{
         flex-direction: column;
         gap: 80px;
@@ -157,5 +156,9 @@
 
     .secondPageFlex {
         padding-bottom: 40px;
+    }
+
+    .sinImage {
+        width: 190px;
     }
 }
