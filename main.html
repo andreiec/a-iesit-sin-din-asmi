@@ -2,7 +2,6 @@
 <html>
 
 <head>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
@@ -11,25 +10,69 @@
 </head>
 
 <body class="unscrollable">
-    <div class="firstPageBg">
-        <div class="firstPage">
-            <div id="sinImg"></div>
-            <div class="container"> 
-                <h1 id="fontedHarder" style="font-size: 76px; color:#ffffff;">Nu încă.</h1>
+
+    <div class="firstPage">
+        <div class="sinImage"></div>
+        <div class="landingTitle"> 
+            <h1 style="font-size: 70px; color:#ffffff;">Nu încă.</h1>
+        </div>
+        <div class="scrollText" >
+            <a href="#secondPage" class="scrollTextLink">
+                <img src="images/arrow.png" alt="Scroll down image" style="width: 25px; height: 25px;">
+                <button class="scrollTextButton" style="font-size: 26px; color:#ffffff; font-weight: 500;">Dă scroll pentru statistici</button>
+            </a>
+        </div>
+    </div>
+
+    <div id="secondPage" class="secondPage">
+        <div class="secondPageFlex">
+            <div class="secondPageTitle">
+                <h1 style="font-size: 60px;">A ieșit Sin din ASMI?</h1>
+                <h3 style="color: slategrey; font-weight: 500;">Nu, Sin încă e voluntar ASMI de</h3>
             </div>
-            <div class="footer" >
-                <a href="#secondPage">
-                    <img src="arrow.png" alt="Scroll down image" style="width: 25px; height: 25px;">
-                    <button id="fonted" class="textButton" style="font-size: 26px; color:#ffffff;">Dă scroll pentru statistici </button>
-                </a>
+
+            <div class="secondPageStats">
+                <h2 id="text1" class='secondPageStatsValue'></h2>
+                <h2 id="text2" class='secondPageStatsValue'></h2>
+                <h2 id="text3" class='secondPageStatsValue'></h2>
+                <h2 id="text4" class='secondPageStatsValue'></h2>
             </div>
         </div>
     </div>
-    <div class="secondPageBg">
-        <div id="secondPage" class="secondPage">
-            <h1 id="fontedHarder" style="font-size: 76px;">Statistici</h1>
+
+    <div class="thirdPage">
+        <div class="thirdPageFlex">
+            <div class="thirdPageCard">
+                <img src="images/pm.png" style="height: 80px;">
+                <h1 class="thirdPageCardTitle" style="font-size: 24px; font-weight: 500;">PM / Responsabil</h1>
+                <h1 class="thirdPageCardValue" style="font-size: 60px;">10+</h1>
+            </div>
+
+            <div class="thirdPageCard">
+                <img src="images/ore.png" style="height: 80px;">
+                <h1 class="thirdPageCardTitle" style="font-size: 24px; font-weight: 500;">Ore în sediu</h1>
+                <h1 class="thirdPageCardValue" style="font-size: 60px;">700+</h1>
+            </div>
+
+            <div class="thirdPageCard">
+                <img src="images/mentee.png" style="height: 80px;">
+                <h1 class="thirdPageCardTitle" style="font-size: 24px; font-weight: 500;">Mentee</h1>
+                <h1 class="thirdPageCardValue" style="font-size: 60px;">6</h1>
+            </div>
+
+            <div class="thirdPageCard">
+                <img src="images/tb.png" style="height: 80px;">
+                <h1 class="thirdPageCardTitle" style="font-size: 24px; font-weight: 500;">TB-uri Participate</h1>
+                <h1 class="thirdPageCardValue" style="font-size: 60px;">4</h1>
+            </div>
         </div>
+
+        <div class="thirdPageFooter">
+            <h1 class="thirdPageFooterText">© Motanu x Comitz - A ieșit Sin din ASMI</h1>
+        </div>
+        
     </div>
+    <script src="main.js" ></script>
 </body>
 
 </html>
