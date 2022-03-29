@@ -1,15 +1,51 @@
 #grad {
-    background-image: linear-gradient(#7AD7F0, #92DFF3, #B7E9F7, #DBF3FA, #F5FCFF);
+    background: linear-gradient(73.92deg, #0E557A 0%, #2F91BF 100%);
   }
+
+#fonted{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+#fontedHarder{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
 
 .body{
     min-height: 100vh;
     position: relative;
 }
 
+
 .container{
     position:absolute;
     left: 50%;
     top: 50%;
-    margin: -25px 0 0 -25px;
+    margin: -100px 0 0 -80px;
+}
+
+#sinImg{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left:-180px;
+    top: -20px;
+
+    background: url(sinPNG.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(71.23deg);
+}
+
+.footer{
+    position: fixed;
+    width:100%;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
