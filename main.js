@@ -1,5 +1,5 @@
 let date_now = Date.now();
-let date_future = Date.parse("23 Apr 2019 00:00:00 GMT");
+let date_future = Date.parse("23 May 2019 00:00:00 GMT");
 
 let d = Math.abs(date_future - date_now) / 1000;                           // delta
 let r = {};                                                                // result

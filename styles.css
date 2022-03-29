@@ -66,6 +66,9 @@
     margin:0;
     padding:0;
     cursor: pointer;
+    font-size: 26px;
+    color:#ffffff;
+    font-weight: 500;
 }
 
 /* SECOND PAGE */
@@ -102,6 +105,10 @@
     font-size: 30px;
 }
 
+.secondPageTitle h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 /* THIRD PAGE */
 
@@ -160,5 +167,9 @@
 
     .sinImage {
         width: 190px;
+    }
+
+    .scrollTextButton {
+        font-size: 18px;
     }
 }
