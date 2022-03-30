@@ -1,4 +1,4 @@
-# A iesit Sin din ASMI?
-Nu, Sin inca nu a iesit din ASMI.
+# A ieșit Sin din ASMI?
+Nu, Sin încă nu a ieșit din ASMI.
 
 https://www.aiesitsindinasmi.com
