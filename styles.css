@@ -150,6 +150,20 @@
     margin-left: 10px;
 }
 
+.sinHat {
+	position:absolute;
+	left:190px;
+	top:-40px;
+	width:150px;
+}
+
+.sinNarghilea {
+	position:absolute;
+	right:50px;
+	top:90px;
+	width:200px;	
+}
+
 @media (max-width: 768px) {
     .thirdPageFlex{
         flex-direction: column;
@@ -172,4 +186,14 @@
     .scrollTextButton {
         font-size: 18px;
     }
+	
+	.sinHat {
+		left:100px;
+		top:40px;
+		width: 70px;
+	}
+	
+	.sinNarghilea {
+		width: 130px;
+	}
 }
