@@ -9,9 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 
-<body class="unscrollable">
+<body class="unscrollable" onload="setInterval(launchConfetti,1000);">
 
     <div class="firstPage">
         <div class="sinImage"></div>
@@ -75,6 +76,15 @@
         
     </div>
     <script src="main.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script>
+        function launchConfetti(){
+    confetti({
+        particleCount: 150,
+        spread: 180
+      });
+    }
+    </script>
 </body>
 
 </html>
